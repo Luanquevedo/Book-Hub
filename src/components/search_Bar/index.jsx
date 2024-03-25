@@ -3,7 +3,16 @@ import './index.scss'
 
 const Search_bar = () => {
   return (
-    <div>index</div>
+    <section>
+        <h1>
+            Qual livro você quer<br/>
+            conhecer hoje?
+        </h1>
+        <input/>
+        <button>
+            Buscar
+        </button>
+    </section>
   )
 }
 

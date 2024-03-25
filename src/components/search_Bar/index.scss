@@ -1,0 +1,35 @@
+@use '../../sass/variables' as *;
+
+section{
+    margin-top: 200px;
+    margin-left: -550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1{
+        font-family: $primary-font;
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    input{
+       background-color: #7F7F7F2B;
+       border: 0px;
+       border-radius: 10px;
+       width: 630px;
+       height: 43px;
+    }
+
+    button{
+        margin-top: 30px;
+        background-color: $tertiary-color;
+        width: 156px;
+        height: 45px;
+        border-radius: 10px;
+        border: 0px;
+        font-family: $primary-font;
+        font-size: 22px;
+        font-weight: 700;
+    }
+}
