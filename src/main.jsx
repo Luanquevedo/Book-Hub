@@ -1,4 +1,5 @@
 import React from 'react'
+import './index.scss'
 import ReactDOM from 'react-dom/client'
 import Home from './views/home';
 import {
@@ -12,7 +13,7 @@ const router = createBrowserRouter([
     path: "/",
     element:<Home/>,
   },
-]);
+]); 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
