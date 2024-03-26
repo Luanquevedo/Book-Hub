@@ -8,7 +8,8 @@ const Search_bar = () => {
             Qual livro você quer<br/>
             conhecer hoje?
         </h1>
-        <input/>
+        <input></input>
+        <img src="Lupa.svg" alt="" />
         <button>
             Buscar
         </button>
